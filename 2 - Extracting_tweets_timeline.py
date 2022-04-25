@@ -178,16 +178,4 @@ for x in range(len(df_usernames)):
     row.update({'username': username})
     df_done_usernames = df_done_usernames.append(row, ignore_index=True)
     save_to_csv(df_done_usernames, done_usernames_file)
-
-
-
-
-
-
-
-
-
-
-  
-
-
+    
